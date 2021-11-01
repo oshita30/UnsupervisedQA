@@ -8,7 +8,7 @@
 Functionality to implement baseline cloze question translators,
 referred to as "identity" and "noisy cloze" baselien methods in the publication
 """
-from .configs import HEURISTIC_CLOZE_TYPE_QUESTION_MAP
+from configs import HEURISTIC_CLOZE_TYPE_QUESTION_MAP
 import random
 import numpy as np
 import nltk
